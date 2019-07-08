@@ -93,7 +93,7 @@ class Team extends Component {
         player: {
           name: "Chet Lemon",
           image: "https://images-na.ssl-images-amazon.com/images/I/81F7yahcm-L._SY550_.jpg",
-          desc: "Chet had a lifetime .273 batting average and racked 1,875 hits. 😐"
+          desc: "Chet had a lifetime .273 batting average and racked up 1,875 hits. 😐"
         }
       },
       {
@@ -109,18 +109,18 @@ class Team extends Component {
         logo: "http://content.sportslogos.net/logos/53/62/thumbs/fmrl2b6xf5hruiike42gn62yu.gif",
         name: "Kansas City Royals",
         player: {
-          name: "",
-          image: "",
-          desc: ""
+          name: "Kurt Stillwell",
+          image: "https://images-na.ssl-images-amazon.com/images/I/41C8HqGHVYL._SY445_.jpg",
+          desc: "Often overshadowed by Bo Jackson (for reasons most experts don't understand), Kurt Stillwell's legend will be felt in Kansas City for eons to come."
         }
       },
       {
         logo: "http://content.sportslogos.net/logos/53/6521/thumbs/652143892016.gif",
         name: "Los Angeles Angels",
         player: {
-          name: "Kurt Stillwell",
-          image: "https://images-na.ssl-images-amazon.com/images/I/41C8HqGHVYL._SY445_.jpg",
-          desc: "Often overshadowed by Bo Jackson (for reasons most experts don't understand), Kurt Stillwell's legend will be felt in Kansas City for eons to come."
+          name: "Lance Parrish",
+          image: "https://kronozio.blob.core.windows.net/images/card/9113cf732e36461b813eda447e213e3c_front.jpg",
+          desc: "Lance 'Big Wheel' Parrish is probably the best player on this list of shitty players, which means he doesn't really belong here. Enjoy."
         }
       },
       {
@@ -147,7 +147,7 @@ class Team extends Component {
         player: {
           name: "Rob Deer",
           image: "https://www.tradingcarddb.com/Images/Cards/Baseball/113/113-57Fr.jpg",
-          desc: "You're damn right Rob Deer is part of this spectacular collection of ballplayers, Patrick. You're damn right."
+          desc: "You're damn right Rob Deer is part of this spectacular collection of ballplayers, Patrick."
         }
       },
       {
@@ -165,7 +165,7 @@ class Team extends Component {
         player: {
           name: "Sid Fernandez",
           image: "https://images-na.ssl-images-amazon.com/images/I/517KVDaOueL.jpg",
-          desc: "Sid Fernandez is a man amongst men, and while he is known for formidable stature, he's most known for being a winner, racking up 114 wins and 96 losses."
+          desc: "Sid Fernandez was a man amongst boys, and while he is known for his formidable stature, he's mostly known for being a winner, racking up 114 wins and 96 losses."
         }
       },
       {
@@ -201,7 +201,7 @@ class Team extends Component {
         player: {
           name: "Sid Bream",
           image: "https://i.ebayimg.com/thumbs/images/g/c3oAAOSw6X1cEGHk/s-l225.jpg",
-          desc: "Sid Bream, born and raised in Pennsylvania, lived out his boyhood dream while playing for his hometown Pirates and racking up 90 career home runs."
+          desc: "Sid Bream, born and raised in Pennsylvania, lived out his boyhood dream while playing for his hometown Pirates and racking up 90 career dongs."
         }
       },
       {
@@ -237,7 +237,7 @@ class Team extends Component {
         player: {
           name: "Tom Pagnozzi",
           image: "https://images-na.ssl-images-amazon.com/images/I/51L9vTzz2xL._SX342_.jpg",
-          desc: "Tom racked up 44 home runs in his career and cemented himself as one of the top 30 catchers to ever play for the esteemed St. Louis Cardinals."
+          desc: "Tom racked up 44 dongs in his career and cemented himself as one of the top 30 catchers to ever play for the St. Louis Cardinals."
         }
       },
       {
@@ -285,10 +285,10 @@ class Team extends Component {
     super(props);
     
     this.state = {
-      teamImage: null,
+      teamImage: "https://cdn.pixabay.com/photo/2017/03/02/09/26/question-mark-2110767_960_720.jpg",
       teamName: "",
       playerName: "",
-      playerImage: null,
+      playerImage: "https://images-na.ssl-images-amazon.com/images/I/61LqhixbsoL._SX425_.jpg",
       playerDesc: ""
     }
 
@@ -312,7 +312,7 @@ class Team extends Component {
   render() {
     return (
       <section className="Team">
-        <h1>{"Hey Pick a Team, Pat!"}</h1>
+        <h1>{"HEY PICK A TEAM, PAT!"}</h1>
         <TeamLogo 
           name={this.state.teamName} 
           img={this.state.teamImage} 
