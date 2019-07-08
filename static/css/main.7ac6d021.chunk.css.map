@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css","PlayerCard.css"],"names":[],"mappings":"AAAA,KACE,iBACF,CCFA,gBACE,WAAY,CACZ,YACF","file":"main.7ac6d021.chunk.css","sourcesContent":[".App {\n  text-align: center;\n}\n\n\n",".PlayerCard img {\n  width: 150px;\n  height: 220px;\n}"]}

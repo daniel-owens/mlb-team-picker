@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mlb-team-picker/precache-manifest.ae78cb4ecf11884f1b99eb6c4ff5a6ad.js"
+  "/mlb-team-picker/precache-manifest.a975366c72410c6de97b3b07b841fb6d.js"
 );
 
 self.addEventListener('message', (event) => {
