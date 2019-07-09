@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3af53cba22be2f7196df15431d6028a",
+    "revision": "a3fb47f00aa6d21587efcd362f81654c",
     "url": "/mlb-team-picker/index.html"
   },
   {
-    "revision": "b0ebe867c02d7880232c",
-    "url": "/mlb-team-picker/static/css/main.6e16f8cb.chunk.css"
+    "revision": "1c537a9f50c6f7ebd5c8",
+    "url": "/mlb-team-picker/static/css/main.d504e156.chunk.css"
   },
   {
     "revision": "2790c44532533aa1f119",
     "url": "/mlb-team-picker/static/js/2.2668f2aa.chunk.js"
   },
   {
-    "revision": "b0ebe867c02d7880232c",
+    "revision": "1c537a9f50c6f7ebd5c8",
     "url": "/mlb-team-picker/static/js/main.e121420f.chunk.js"
   },
   {
